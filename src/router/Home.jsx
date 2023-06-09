@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Intro from '../components/Intro';
+import Section1 from '../components/Section1';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
     <Navbar/>
     <Intro/>
     </div>
+    <Section1/>
     </>
   )
 }
