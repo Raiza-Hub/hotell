@@ -24,6 +24,6 @@ code {
   @apply p-14 bg-white drop-shadow-lg;
 }
 .service_link{
-  @apply mt-16 text-sm text-slate-500 font-semibold;
+  @apply mt-16 text-sm text-slate-500 font-semibold hover:text-black ;
 }
 
