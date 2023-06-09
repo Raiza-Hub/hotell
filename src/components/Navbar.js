@@ -7,7 +7,7 @@ function Navbar() {
     const number = 9063611541
   return (
     <>
-    <div className="flex justify-between items-center lg:mx-24  p-10 font-style sticky top-0 text-white">
+    <div className="flex justify-between items-center lg:mx-24  p-10 font-style text-white">
     <a href="/"><div className='text-2xl'>Hotell</div></a>
         <CgMenuGridO className='lg:hidden' fontSize={30}/>
         <div className="hidden lg:flex  xl:ml-20">

@@ -6,7 +6,7 @@ import Section1 from '../components/Section1';
 function Home() {
   return (
     <>
-    <div className="bg-desktop bg-no-repeat bg-cover">
+    <div className="bg-desktop bg-no-repeat bg-cover overflow-hidden">
     <Navbar/>
     <Intro/>
     </div>

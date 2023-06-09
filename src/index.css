@@ -17,3 +17,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.inputfield{
+    @apply bg-gray-200 hover:outline-rose-100 hover:outline rounded-full py-3 pl-5 transition duration-200 cursor-pointer;
+}
