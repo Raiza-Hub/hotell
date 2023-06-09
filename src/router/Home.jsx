@@ -5,7 +5,7 @@ import Intro from '../components/Intro';
 function Home() {
   return (
     <>
-    <div className="bg-desktop bg-no-repeat bg-cover w-[100%]">
+    <div className="bg-desktop bg-no-repeat bg-cover">
     <Navbar/>
     <Intro/>
     </div>
