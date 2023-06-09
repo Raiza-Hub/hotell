@@ -7,21 +7,23 @@ function Navbar() {
     const number = 9063611541
   return (
     <>
-    <div className="flex justify-between items-center lg:mx-24 m-6 p-4 font-style sticky top-0">
-    <div className='text-2xl'>Hotell</div>
+    <div className="flex justify-between items-center lg:mx-24  p-10 font-style sticky top-0 text-white">
+    <a href="/"><div className='text-2xl'>Hotell</div></a>
         <CgMenuGridO className='lg:hidden' fontSize={30}/>
         <div className="hidden lg:flex  xl:ml-20">
-            <div className='ml-4'>Home</div>
-            <div className="flex items-center  ml-4">
+            <a href="/"><div className='ml-4'>Home</div></a>
+            <a href="/destination"><div className="flex items-center  ml-4">
             Destination
             <div className="ml-1"><RiArrowDropDownLine/> </div>
-            </div>
-            <div className='ml-4'>Services</div>
-            <div className='ml-4'>About</div>
-            <div className='ml-4'>Contact</div>
+            </div></a>
+            <a href="/services"><div className='ml-2'>Services</div></a>
+            <a href="/about"><div className='ml-4'>About</div></a>
+            <a href="/contact"><div className='ml-4'>Contact</div></a>
         </div>
         <div className="hidden lg:flex items-center xl:mr-20">
-          <div className="bg-slate-50 p-2 rounded-full text-black mr-3 border hover:bg-transparent hover:text-white transition duration-200"><BsFillTelephoneFill className=''/></div>  
+          <a href="/contact">
+          <div className="bg-gray-500 p-2 rounded-full text-white mr-3 border hover:bg-transparent transition duration-200"><BsFillTelephoneFill/></div>  
+          </a>
             {number}
         </div>
     </div>
