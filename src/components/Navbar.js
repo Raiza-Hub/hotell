@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
     <div className="flex justify-between items-center lg:mx-24  p-10 font-style text-white">
-    <a href="/"><div className='text-2xl'>Hotell</div></a>
+    <a href="/"><div className='text-2xl font-bold'>Hotell</div></a>
         <CgMenuGridO className='lg:hidden' fontSize={30}/>
         <div className="hidden lg:flex  xl:ml-20">
             <a href="/"><div className='ml-4'>Home</div></a>
