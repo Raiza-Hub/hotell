@@ -46,7 +46,7 @@ function Testimonial() {
            </div>
             
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center pb-10 ">
         <button className='border rounded-full mt-10 py-2 px-5 hover:border-black'>Prev</button>
         <button className='border rounded-full mt-10 py-2 px-5 ml-2 hover:border-black'>Next</button>
       </div>
