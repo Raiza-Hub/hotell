@@ -14,7 +14,7 @@ function Social() {
            <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt="" />
            <img src="https://preview.colorlib.com/theme/hotell/images/img_1.jpg" alt="" />
            <img src="https://preview.colorlib.com/theme/hotell/images/img_4.jpg" alt="" />
-           <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt=""  className='hidden lg:flex'/>
+           <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt=""  className='md:hidden lg:flex'/>
             
         </div>
         <div className="flex justify-center">
