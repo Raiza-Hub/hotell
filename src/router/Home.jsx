@@ -2,10 +2,11 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Intro from '../components/Intro';
 import Section1 from '../components/Section1';
-import Services_Section from '../components/Services_Section';
-import About_Section from '../components/About_Section';
+import ServicesSection from '../components/ServicesSection';
+import AboutSection from '../components/AboutSection';
 import Testimonial from '../components/Testimonial';
 import Social from '../components/Social';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -15,10 +16,11 @@ function Home() {
     <Intro/>
     </div>
     <Section1/>
-    <Services_Section/>
-    <About_Section/>
+    <ServicesSection/>
+    <AboutSection/>
     <Testimonial/>
     <Social/>
+    <Footer/>
     </>
   )
 }

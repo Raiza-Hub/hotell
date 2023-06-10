@@ -11,13 +11,13 @@ function Social() {
             </div>
         </div>
         <div className=" grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 mx-4 sm:mx-14 lg:mx-28">
-           <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt="" />
-           <img src="https://preview.colorlib.com/theme/hotell/images/img_1.jpg" alt="" />
-           <img src="https://preview.colorlib.com/theme/hotell/images/img_4.jpg" alt="" />
-           <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt=""  className='md:hidden lg:flex'/>
+           <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt="R" />
+           <img src="https://preview.colorlib.com/theme/hotell/images/img_1.jpg" alt="R" />
+           <img src="https://preview.colorlib.com/theme/hotell/images/img_4.jpg" alt="R" />
+           <img src="https://preview.colorlib.com/theme/hotell/images/img_3.jpg" alt="R"  className='md:hidden lg:flex'/>
             
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center pb-10">
         <button className='border rounded-full mt-10 py-2 px-5 hover:border-black'>Prev</button>
         <button className='border rounded-full mt-10 py-2 px-5 ml-2 hover:border-black'>Next</button>
       </div>
