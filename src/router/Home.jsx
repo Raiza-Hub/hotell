@@ -5,6 +5,7 @@ import Section1 from '../components/Section1';
 import Services_Section from '../components/Services_Section';
 import About_Section from '../components/About_Section';
 import Testimonial from '../components/Testimonial';
+import Social from '../components/Social';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
     <Services_Section/>
     <About_Section/>
     <Testimonial/>
+    <Social/>
     </>
   )
 }
